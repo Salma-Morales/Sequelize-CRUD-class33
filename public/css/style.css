@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #e51b3e;
+  margin: 0;
+  padding: 8px 30px;
+}
+header figure {
+  background-color: aliceblue;
+  width: 200px;
+  border-radius: 10px;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container{
+  padding: 50px 100px;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+figure{
+  width: 20%;
+}
+.titulo{
+  text-align: center;
+}
+.botonAgregar , .botonModificar{
+  color: white;
+  background-color: #e51b3e;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonBorrar{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonVolver{
+  color: white;
+  background-color: #00B7FF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.formulario{
+  margin: auto;
+  width: 20%;
+}
